@@ -1,0 +1,148 @@
+.admission__table {
+    max-width:1280px;
+    /* height:2189px; */
+    margin-left:auto;
+    margin-right:auto;
+    background: #E5E5E5;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.admission__tableheader{
+    display:flex;
+    width:100%;
+    height:123px;
+}
+
+.admission__tableheader > .part_one {
+
+width:204px;
+height:100px;
+background: #F5F5F5;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+
+}
+
+.admission__tableheader > .part_two {
+    width:258px;
+    height:100px;
+    
+    background: #F5F5F5;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+}
+
+.admission__tableheader > .part_three {
+    width:258px;
+    height:100px;
+    
+    background: #F5F5F5;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.admission__tableheader > .part_four {
+    width:258px;
+    height:100px;
+    
+    background: #F5F5F5;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.admission__tableheader > .part_five {
+    width:305px;
+    height:100px;
+    
+    background: #F5F5F5;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.admission__tableheader > .part_one > span {
+
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+
+
+/* color: #FFFFFF; */
+
+}
+
+.admission__tableheader > .part_one > h3 {
+
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 18px;
+
+
+
+/* color: #FFFFFF; */
+
+}
+
+.admission__tableheader > .part_one  > div {
+    margin-left:60px;
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+
+.admission__tableheader > .part_two  > div {
+    margin-left:60px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.admission__tableheader > .part_three  > div {
+    margin-left:60px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.admission__tableheader > .part_four  > div  {
+    margin-left:60px;
+    margin-top:30px;
+}
+
+.admission__tableheader > .part_five >h3 {
+    margin-left:80px;
+    margin-top:40px;
+}
+
+
+@media screen and (min-width: 480px) {
+    
+  }
+
+
+  .admission__table >div > button {
+   
+    width:487px;
+    height:52px;
+    background: #000000;
+border-radius: 4px;
+margin-top:60px;
+margin-left:350px;
+margin-bottom:30px;
+}
+
+.admission__table > div >button >p{
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+margin-top:auto;
+margin-bottom:auto;
+color: #FFFFFF;
+}

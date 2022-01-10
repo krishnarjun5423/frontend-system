@@ -1,0 +1,152 @@
+.form {
+    position: relative;
+    width:722px;
+    height:726px;
+    border-radius: 4px;
+    
+    /* margin-top:202px; */
+    margin-left:359px;
+    margin-right:359px;
+    margin-bottom:54px;
+    background-color:  #F5F5F5;
+}
+.top{
+    margin-top:50px;
+}
+.form__instructions {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left:438px;
+    margin-right:438px;
+    
+}
+
+.form__container {
+    position:absolute;
+    top:132px;
+    margin-left:119px;
+    margin-right:119px;
+    
+}
+
+.form__instructions > h3 {
+    
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 26px;
+/* identical to box height */
+justify-content:center;
+text-align: center;
+margin-right:-50px;
+color: #141414;
+margin-bottom:12px;
+
+}
+
+.form__instructions > h4 {
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+margin-bottom:48px;
+width:100%;
+
+color: #141414;
+margin-left:84px;
+margin-right:84px;
+
+}
+
+.form >.form__container > .form__header{
+    
+    width:149px;
+    height:22px;
+    
+margin-bottom:27px;
+
+}
+
+.form__container > .form__header >h2 {
+    
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom:27px;
+
+
+
+}
+
+.form__footer > button {
+    width: 487px;
+height: 52px;
+background: #000000;
+border-radius: 4px;
+}
+
+.form__footer > button > h4 {
+    width:160px;
+    height:20px;
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+margin-left:156px;
+margin-right:171px;
+margin-top:16px;
+margin-bottom:16px;
+color: #FFFFFF;
+
+}
+
+.form__bottom {
+    width:307px;
+    height:20px;
+    margin-left:567px;
+    margin-right:566px;
+    margin-top:54px;
+    
+}
+
+.form__bottom > h3 {
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #141414;
+margin-bottom:40px;
+
+}
+
+.form__bottom > h4 {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 26px;
+/* identical to box height */
+width:183px;
+height:26px;
+margin-left:62px;
+margin-right:62px;
+
+color: #141414;
+}
+
+.form__progressbar {
+    
+    margin-top:-90px;
+    margin-bottom:50px;
+}

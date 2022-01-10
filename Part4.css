@@ -1,0 +1,80 @@
+.part__four {
+    position: relative;
+     margin-top:48px;
+     margin-left:64px;
+     max-width: 1200px;
+     margin-right:26px;
+     
+ }
+
+ h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom:20px;
+    
+ }
+
+ p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #141414;
+    margin-bottom:60px;
+    
+ }
+
+ hr {
+    border: 1px solid #AEAEAE;
+    height:0px;
+    margin-bottom:50px;
+ }
+
+ .challenge {
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     margin-bottom: 30px;
+ }
+
+ .challenge > .challenge__left >h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+    margin-bottom:5px;
+    
+    color: #141414;
+ }
+
+ .challenge > .challenge__left > h3{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: rgba(20, 20, 20, 0.54);
+    
+ }
+
+ .challenge > .challenge__right > h2{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #000000;
+    margin-right:100px;    
+ } 

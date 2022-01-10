@@ -1,0 +1,91 @@
+.admission__details {
+    
+    margin-top:120px;
+    margin-left:80px;
+    margin-right:80px;
+    margin-bottom:72px;
+    width:100%;
+   
+    
+    background: #FFFFFF;
+}
+.admission__details >h2 {
+    font-family: Montserrat;
+font-size: 21px;
+font-style: normal;
+font-weight: 800;
+line-height: 26px;
+letter-spacing: 0em;
+margin-bottom:32px;
+color: #141414;
+
+}
+
+.admission__detailsContent {
+    display:flex;
+    justify-content:space-between;
+    margin-left:0px;
+    /* margin-right:-5px; */
+    max-width:1200px;
+}
+
+.admission__detailsContent >div >h2 {
+    font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+
+/* margin-right:130px; */
+}
+
+.admission__detailsContent >div >h3 {
+    
+        font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    /* margin-right:130px; */
+}
+
+.admission__details > div > h2 {
+    font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding:2px;
+}
+
+.admission__details > div > h3 {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.admission__details > div{
+    margin-top:40px;
+}
+
+@media screen and (max-width: 820px) {
+    .admission__details > div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  }
